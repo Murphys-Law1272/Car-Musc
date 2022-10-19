@@ -1,15 +1,24 @@
-.first  {
+.content {
     background-image: url("images/first-background.jpg");
     background-repeat: no-repeat;
-    height: 100vh;
-    min-height: 1000px;
     background-size: cover;
     background-position: center center;
-    
-   
+
+
 }
-.first a, a.nav-link, .first a.nav-link.active{
-    color: #fff;
+
+.content a,
+a.nav-link,
+.first a.nav-link.active {
+    color: #FFFFFF;
+}
+
+.navbar {
+    --bs-navbar-brand-hover-color: #DB3138 !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #DB3138 !important;
 }
 
 .navbar-icon {
@@ -20,36 +29,92 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    background-image: url("images/55.png"), url("images/56.png") ;
-   
-
-/* .container {
-    margin: 0 auto;
-    padding: 0 15px;
+    background-image: url("images/60.png");
 
 }
 
-.nav ul {
-    display: flex;
-    font-size: 24px;
-    list-style: none;
-    line-height: 28px;
-    padding-top: 40px;
+.navbar-toggler {
+    color: #DB3138 !important;
+}
+
+.main-title {
+    text-align: center;
+    color: #DB3138;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 125%;
+    margin-top: 168px;
+}
+
+.diamonds {
+    text-align: center;
+
+
+}
+
+.diamonds img {
+    padding-right: 30px !important;
+    margin-top: 40px;
+}
+
+.greetings {
     font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
 
+.btn-ss {
+    margin-top: 40px;
+}
+
+.info {
+    margin-top: 100px;
+
+    border: 1px solid #FFFFFF;
+}
+
+.info .border1 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.info .border2 {
+    border: 1px solid #898989;
+    transform border: rotate(-90deg);
+    text-align: center;
 
 }
 
-.nav li {
-    padding-right: 40px;
+.info .border3 {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.phone-info {
+    margin: 40px 0;
 
 }
 
-.nav .item a {
+.phone-info a {
     text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #DB3138;
+}
+
+.info h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
     color: #FFFFFF;
 }
 
-.navbar-nav{
-    color: #FFFFFF;
-} */
+.info p{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #DB3138;
+}
